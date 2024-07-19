@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--ZAP ZAP COLORS -->
+    <color name="background">#ece5dd</color>
+    <color name="dark_green">#075e54</color>
+    <color name="medium_green">#128c7e</color>
+    <color name="light_green">#25d366</color>
+    <color name="super_light_green">#dcf8c6</color>
+    <color name="gray">#C1C1C1</color>
+
+    <color name="fundo_verde_msg">#cbf9c4</color>
+</resources>

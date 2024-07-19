@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLtConversaContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgItemConversaFoto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Arredondamento"
+        app:srcCompat="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/txtItemConversaNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:text="Nome teste"
+        app:layout_constraintStart_toEndOf="@+id/imgItemConversaFoto"
+        app:layout_constraintTop_toTopOf="@+id/imgItemConversaFoto" />
+
+    <TextView
+        android:id="@+id/txtItemConversaUltMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Ultima mensagem"
+        android:maxLength="35"
+        app:layout_constraintBottom_toBottomOf="@+id/imgItemConversaFoto"
+        app:layout_constraintStart_toEndOf="@+id/imgItemConversaFoto"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemConversaNome" />
+</androidx.constraintlayout.widget.ConstraintLayout>

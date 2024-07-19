@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AulaWhatsApp</string>
+    <string name="email_input_description">Digite seu e-mail</string>
+    <string name="senha_input_description">Digite sua senha</string>
+    <string name="nome_input_description">Digite seu nome</string>
+    <string name="cadastro_txt_default">Não possui cadastro?</string>
+    <string name="cadastro_txt_link">Cadastre-se agora</string>
+    <string name="logar_txt">Logar</string>
+    <string name="cadastrar_txt">Cadastrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
